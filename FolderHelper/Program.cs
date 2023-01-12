@@ -31,9 +31,9 @@ namespace FolderHelper
                 Console.WriteLine("...");
                 Console.WriteLine("...");
                 Console.WriteLine("羅伊德：好厲害，完成了!!");
-                Console.WriteLine("阿尼亞：阿尼亞要維護冬希國的和平");
+                Console.WriteLine("阿尼亞：V_V");
             }
-            if (model == "2")
+            else if (model == "2")
             {
                 Console.WriteLine("羅伊德：題目是：讀取FileList.xlsx並依內容將檔案重新命名");
                 Console.WriteLine("阿尼亞：Q_Q");
@@ -42,16 +42,16 @@ namespace FolderHelper
                 Console.WriteLine("...");
                 Console.WriteLine("...");
                 Console.WriteLine("羅伊德：好厲害，完成了!!");
-                Console.WriteLine("阿尼亞：阿尼亞要維護冬希國的和平");
+                Console.WriteLine("阿尼亞：V_V");
             }
             else
             {
                 Console.WriteLine("羅伊德：恩!?今天沒有作業");
-                Console.WriteLine("約  兒：這樣的話，我來做晚餐吧!!");
-                Console.WriteLine("羅伊德：!!");
-                Console.WriteLine("阿尼亞：!!");
-                Console.WriteLine("龐  德：!!");
             }
+            Console.WriteLine("約  兒：這樣的話，我來做晚餐吧!!");
+            Console.WriteLine("羅伊德：!!");
+            Console.WriteLine("阿尼亞：!!");
+            Console.WriteLine("龐  德：!!");
             Console.ReadKey();
         }
     }
