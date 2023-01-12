@@ -19,18 +19,39 @@ namespace FolderHelper
 
             var helper = new FolderHelper();
 
+            Console.WriteLine("羅伊德：阿尼亞，該寫作業了!");
+            Console.WriteLine("阿尼亞：@@");
+
             if (model == "1")
             {
-                Console.WriteLine("執行模式一：將指定路徑下所有檔名匯出成Excel");
+                Console.WriteLine("羅伊德：題目是：讀取指定路徑下所有檔名，並匯出FileList.xlsx");
+                Console.WriteLine("阿尼亞：T_T");
                 helper.GetAllFilesNameExportExcel(sourcePath, targetPath);
+                Console.WriteLine("...");
+                Console.WriteLine("...");
+                Console.WriteLine("...");
+                Console.WriteLine("羅伊德：好厲害，完成了!!");
+                Console.WriteLine("阿尼亞：阿尼亞要維護冬希國的和平");
             }
             if (model == "2")
             {
-                Console.WriteLine("執行模式二：依Excel設定變更檔案名稱");
+                Console.WriteLine("羅伊德：題目是：讀取FileList.xlsx並依內容將檔案重新命名");
+                Console.WriteLine("阿尼亞：Q_Q");
                 helper.RenameFileFromExcel(targetPath);
+                Console.WriteLine("...");
+                Console.WriteLine("...");
+                Console.WriteLine("...");
+                Console.WriteLine("羅伊德：好厲害，完成了!!");
+                Console.WriteLine("阿尼亞：阿尼亞要維護冬希國的和平");
             }
-
-            Console.WriteLine("執行完畢");
+            else
+            {
+                Console.WriteLine("羅伊德：恩!?今天沒有作業");
+                Console.WriteLine("約  兒：這樣的話，我來做晚餐吧!!");
+                Console.WriteLine("羅伊德：!!");
+                Console.WriteLine("阿尼亞：!!");
+                Console.WriteLine("龐  德：!!");
+            }
             Console.ReadKey();
         }
     }
